@@ -1,0 +1,13 @@
+[project]
+name = "xai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+classifiers = [ "Programming Language :: Python :: 3 :: Only", "Programming Language :: Python :: 3.13" ]
+dependencies = [
+  "google-genai>=1.5",
+  "mypy>=1.15",
+  "openai>=1.65.4",
+  "pre-commit>=4.1",
+]
